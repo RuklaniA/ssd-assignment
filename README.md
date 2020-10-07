@@ -2,7 +2,7 @@ Steps for build and deployment
 
 1. Run the command 'npm install' on the terminal
 2. Run 'node server.js' to start the server
-3. Open the browser and navigate to 'http://localhost/5000'
+3. Open the browser and navigate to 'http://localhost:5000'
 
 Steps for testing
 
