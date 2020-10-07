@@ -140,7 +140,7 @@
     function showFileList() {
         $("#loading").show();
         gapi.client.drive.files.list({
-            'pageSize': 10,
+            'pageSize': 5,
             'fields': "nextPageToken, files(id, name)"
         }).then(function (response) {
             $("#loading").hide();
